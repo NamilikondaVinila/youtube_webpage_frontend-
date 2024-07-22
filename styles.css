@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 5px 0;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Average Calculator</h1>
+        <div class="input-group">
+            <label for="numberType">Select Number Type:</label>
+            <select id="numberType">
+                <option value="prime">Prime</option>
+                <option value="fibo">Fibonacci</option>
+                <option value="even">Even</option>
+                <option value="random">Random</option>
+            </select>
+            <button id="fetchNumbers">Fetch Numbers</button>
+        </div>
+        <div id="results">
+            <h2>Results</h2>
+            <p><strong>Window Previous State:</strong> <span id="windowPrevState"></span></p>
+            <p><strong>Window Current State:</strong> <span id="windowCurrState"></span></p>
+            <p><strong>Fetched Numbers:</strong> <span id="fetchedNumbers"></span></p>
+            <p><strong>Average:</strong> <span id="average"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
